@@ -338,6 +338,9 @@ border: 1px dashed rgb(190, 185, 185);
     background-size: cover;
     width: 100%;   
 } */
+ .p_cls{
+    color: black;
+ }
 
 #divcontact{
    background: url(img/b2.png)no-repeat;
