@@ -3,19 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-#navv{
+
+#navv {
     position: fixed;
     width: 100%;
     z-index: 999;
-    
+
 }
 
-p{
- font-family: "Montserrat", sans-serif;   
+p {
+    font-family: "Montserrat", sans-serif;
+
 }
-.logo img{
-    width: 65px;
- }
+
+.logo img {
+    width: 100px;
+}
 
 .nav-item a {
     text-decoration: none;
@@ -31,11 +34,11 @@ p{
     color: rgb(20, 219, 20);
 }
 
-.navbar-brand {
+/* .navbar-brand {
     height: 50px;
     width: 100px;
 
-}
+} */
 
 .search {
     height: 45px;
@@ -87,8 +90,9 @@ border:2px solid rgb(20, 219, 20);
     outline: none;
     box-shadow: none;
 }
+
 /****************main**************/
-#divmain{
+#divmain {
     background-color: rgb(230, 241, 227);
 }
 
@@ -101,13 +105,13 @@ border:2px solid rgb(20, 219, 20);
 
 .main h1 {
     font: size 5rem;
-    font-family: "Righteous",cursive;
+    font-family: "Righteous", cursive;
 }
 
 .main p:nth-child(1) {
     font-size: 18px;
     font-weight: 50;
-    padding-top:100px; 
+    padding-top: 100px;
 }
 
 .main p:nth-child(2) {
@@ -146,17 +150,20 @@ border:2px solid rgb(20, 219, 20);
     border: none;
     color: white;
 }
-.line{
-   height: 6px;
-   width: 30%;
-   background-color:rgb(20, 219, 20);
-   display:inline-block;
+
+.line {
+    height: 6px;
+    width: 30%;
+    background-color: rgb(20, 219, 20);
+    display: inline-block;
 }
+
 /********about*********/
 
-#divabout{
+#divabout {
     background-color: rgba(207, 237, 213, 0.984);
 }
+
 .about h1 {
     font: size 3rem;
     font-weight: bold;
@@ -165,50 +172,57 @@ border:2px solid rgb(20, 219, 20);
 .about p:nth-child(1) {
     font-size: 18px;
     font-weight: 500px;
-    padding-top:100px; 
+    padding-top: 100px;
 }
 
 .about p:nth-child(2) {
     font-size: 18px;
     color: gray;
 }
+
 /*************welcome***************/
-.welcome{
-background: rgba(43, 240, 25, 0.861);
+.welcome {
+    background: rgba(43, 240, 25, 0.861);
 }
-.line2{
-   height: 6px;
-   width: 30%;
-   background-color: white;
-   display:inline-block;
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
 }
-.welcome p{
+
+.welcome p {
     color: black;
 }
-.welcome h1{
+
+.welcome h1 {
     font-size: 3rem;
-    font-weight:bold;
+    font-weight: bold;
 }
-.welcome.card{
+
+.welcome.card {
     border: none;
     border: 0;
     cursor: pointer;
-    
+
 }
 
-.welcome i{
+.welcome i {
     font-size: 45px;
     color: rgb(20, 219, 20);
 }
-.welcome h2{
+
+.welcome h2 {
     font-weight: lighter;
     padding: 10px 0px;
 }
 
 /**********Product*************/
-#divservice{
+#divservice {
     background-color: rgb(240, 255, 255);
 }
+
 .product h1 {
     font: size 3rem;
     font-weight: bold;
@@ -217,33 +231,39 @@ background: rgba(43, 240, 25, 0.861);
 .product p:nth-child(1) {
     font-size: 18px;
     font-weight: 500;
-    padding-top:100px; 
+    padding-top: 100px;
 }
 
 .product p:nth-child(2) {
     font-size: 18px;
     color: gray;
 }
-.star{
+
+.star {
     text-align: end;
     color: orange;
 }
-.product.card{
+
+.product.card {
     border: none;
     border-radius: 0;
     cursor: pointer;
 }
-.product.card-body{
-border: 1px dashed rgb(190, 185, 185);
+
+.product.card-body {
+    border: 1px dashed rgb(190, 185, 185);
 }
-.head1{
-   font-weight: 400;
-   margin: 0; 
+
+.head1 {
+    font-weight: 400;
+    margin: 0;
 }
-.per1{
-    color:rgb(168, 162,162);
+
+.per1 {
+    color: rgb(168, 162, 162);
 }
-.btnc{
+
+.btnc {
     height: 50px;
     width: 50%;
     outline: none;
@@ -255,19 +275,22 @@ border: 1px dashed rgb(190, 185, 185);
     display: block;
     transition: all 0.4s;
 }
-.btnc:hover{
+
+.btnc:hover {
     outline: none;
     color: black;
     border: 1px solid rgb(13, 142, 13);
     background: transparent;
     border-radius: 50px;
 }
+
 /**********Discount*************/
-.discount{
+.discount {
     background: rgb(20, 219, 20);
     color: white;
 }
-.dbtn{
+
+.dbtn {
     height: 50px;
     width: 75%;
     outline: none;
@@ -280,13 +303,16 @@ border: 1px dashed rgb(190, 185, 185);
     font-weight: lighter;
     transition: all 0.4s;
 }
-.dbtn:hover{
+
+.dbtn:hover {
     background-color: rgb(228, 228, 228);
 }
+
 /***********store*********/
-#divstore{
+#divstore {
     background-color: rgb(218, 231, 218);
 }
+
 .store h1 {
     font: size 3rem;
     font-weight: bold;
@@ -301,34 +327,42 @@ border: 1px dashed rgb(190, 185, 185);
     font-size: 18px;
     color: gray;
 }
+
 .store i {
     font-size: 45px;
 }
-.store .card{
+
+.store .card {
     border-radius: 0;
     border: none;
     transition: all 0.3s;
     cursor: pointer;
 }
-.store .card:hover{
+
+.store .card:hover {
     background-color: rgb(20, 219, 20);
     color: white;
 }
-.store .card:hover .per1{
+
+.store .card:hover .per1 {
     color: white;
 }
+
 /***********seller***********/
-.seller h1{
+.seller h1 {
     font: size 3rem;
     font-weight: bold;
 }
+
 .seller i {
     color: orange;
 }
-.seller.card{
-    border-radius:0 ;
+
+.seller.card {
+    border-radius: 0;
     border: none;
 }
+
 /**********contact*************/
 /* .contact{
     background-color: rgb(20, 219, 20);
@@ -338,24 +372,27 @@ border: 1px dashed rgb(190, 185, 185);
     background-size: cover;
     width: 100%;   
 } */
- .p_cls{
+.p_cls {
     color: black;
- }
+}
 
-#divcontact{
-   background: url(img/b2.png)no-repeat;
+#divcontact {
+    background: url(img/b2.png)no-repeat;
     background-size: cover;
     width: 100%;
 }
+
 .contact h1 {
     font-size: 3rem;
     font-weight: bold;
     color: white;
 }
-.contact p{
+
+.contact p {
     color: white;
 }
-.circle{
+
+.circle {
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -365,7 +402,8 @@ border: 1px dashed rgb(190, 185, 185);
     padding-top: 15px;
     font-size: 18px;
 }
-.contact input{
+
+.contact input {
     height: 40px;
     width: 100%;
     border: none;
@@ -374,7 +412,8 @@ border: 1px dashed rgb(190, 185, 185);
     margin-top: 10px;
     padding: 10px;
 }
-.contact textarea{
+
+.contact textarea {
     height: 100px;
     width: 100%;
     border: none;
@@ -383,7 +422,8 @@ border: 1px dashed rgb(190, 185, 185);
     margin-top: 10px;
     padding: 10px;
 }
-.cbtn{
+
+.cbtn {
     height: 50px;
     width: 65%;
     outline: none;
@@ -394,15 +434,17 @@ border: 1px dashed rgb(190, 185, 185);
     font-weight: lighter;
     transition: all 0.3s;
 }
-.cbtn:hover{
+
+.cbtn:hover {
     background: wheat;
 }
 
 /************Footer************/
-.footer{
-background: rgb(61, 58, 58);
+.footer {
+    background: rgb(61, 58, 58);
 }
-.s1{
+
+.s1 {
     height: 40px;
     width: 40px;
     background-color: transparent;
@@ -416,10 +458,12 @@ background: rgb(61, 58, 58);
     transition: all 0.3s;
     cursor: pointer;
 }
-.s1:hover{
+
+.s1:hover {
     background-color: rgb(20, 219, 20);
     border: none;
 }
+
 .footer p {
     color: rgb(13, 172, 13);
 }
